@@ -1,4 +1,5 @@
 import random
+## This is using a fixed, user made dictionary due to issues with a dictionary module integration. It would be a simple alteration to use a full dictionary
 dictionary = ["hello", "anime", "memes", "poggers", "establishment"]
 word = dictionary[(random.randint(0, len(dictionary)))]
 operable_word = []
